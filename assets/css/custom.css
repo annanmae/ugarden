@@ -1,1 +1,13 @@
-/* Add your custom styles here */
+
+
+
+.hero-title {
+    font-family: "roc-grotesk-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.88651rem;
+    color: #899f4c;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+  }
