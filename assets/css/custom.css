@@ -5,9 +5,33 @@
     font-family: "roc-grotesk-condensed", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 2.88651rem;
+    font-size: 5rem;
     color: #899f4c;
     margin-bottom: 5px;
     position: relative;
     z-index: 1;
   }
+
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .hero-img {
+      width: 115%;
+      margin-left: -4rem;
+    }
+  }
+
+  .font-cursive {
+    font-family: "roc-grotesk-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    color: #899f4c;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
