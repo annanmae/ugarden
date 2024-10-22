@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3344E9822CB35EFD002F4ADA /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E97F2CB35EFD002F4ADA /* LargeButton.swift */; };
+		3344E9832CB35EFD002F4ADA /* QRScannerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9802CB35EFD002F4ADA /* QRScannerButton.swift */; };
+		3344E98A2CB35F09002F4ADA /* Airtable Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9862CB35F09002F4ADA /* Airtable Access.swift */; };
+		3344E98B2CB35F09002F4ADA /* Drying Records.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9872CB35F09002F4ADA /* Drying Records.swift */; };
+		3344E98C2CB35F09002F4ADA /* DryingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9882CB35F09002F4ADA /* DryingViewModel.swift */; };
+		3344E98E2CB35F0D002F4ADA /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E98D2CB35F0D002F4ADA /* Enums.swift */; };
+		3344E9902CB35F11002F4ADA /* QRScannerFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E98F2CB35F11002F4ADA /* QRScannerFunc.swift */; };
+		3344E99B2CB35F1A002F4ADA /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9932CB35F1A002F4ADA /* AnalyticsView.swift */; };
+		3344E99C2CB35F1A002F4ADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9942CB35F1A002F4ADA /* ContentView.swift */; };
+		3344E99D2CB35F1A002F4ADA /* DryingFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9952CB35F1A002F4ADA /* DryingFormView.swift */; };
+		3344E99E2CB35F1A002F4ADA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9962CB35F1A002F4ADA /* HomeScreen.swift */; };
+		3344E99F2CB35F1A002F4ADA /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9972CB35F1A002F4ADA /* InventoryView.swift */; };
+		3344E9A02CB35F1A002F4ADA /* ProductFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9982CB35F1A002F4ADA /* ProductFormView.swift */; };
+		3344E9A12CB35F1A002F4ADA /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9992CB35F1A002F4ADA /* QRScannerView.swift */; };
+		3344E9AD2CC469F1002F4ADA /* EditRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9AC2CC469F1002F4ADA /* EditRecordView.swift */; };
+		3344E9AF2CC6FEF3002F4ADA /* DryingRecordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9AE2CC6FEF3002F4ADA /* DryingRecordRow.swift */; };
+		3344E9B12CC7A6DC002F4ADA /* Product Airtable Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9B02CC7A6DC002F4ADA /* Product Airtable Access.swift */; };
+		3344E9B32CC7D73A002F4ADA /* ProductRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9B22CC7D73A002F4ADA /* ProductRecords.swift */; };
+		3344E9B52CC815AC002F4ADA /* ProductInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9B42CC815AC002F4ADA /* ProductInventoryView.swift */; };
+		3344E9B72CC815DF002F4ADA /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9B62CC815DF002F4ADA /* ProductViewModel.swift */; };
+		3344E9B92CC8168F002F4ADA /* ProductRecordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344E9B82CC8168F002F4ADA /* ProductRecordRow.swift */; };
+		33EB02D32C8E3B5B00B9243C /* UGArden_Herbs_2024App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB02D22C8E3B5B00B9243C /* UGArden_Herbs_2024App.swift */; };
+		33EB02D72C8E3B5D00B9243C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33EB02D62C8E3B5D00B9243C /* Assets.xcassets */; };
+		33EB02DB2C8E3B5D00B9243C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33EB02DA2C8E3B5D00B9243C /* Preview Assets.xcassets */; };
+		33EB02E52C8E3B5D00B9243C /* UGArden_Herbs_2024Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB02E42C8E3B5D00B9243C /* UGArden_Herbs_2024Tests.swift */; };
+		33EB02EF2C8E3B5D00B9243C /* UGArden_Herbs_2024UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB02EE2C8E3B5D00B9243C /* UGArden_Herbs_2024UITests.swift */; };
+		33EB02F12C8E3B5D00B9243C /* UGArden_Herbs_2024UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB02F02C8E3B5D00B9243C /* UGArden_Herbs_2024UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33EB02E12C8E3B5D00B9243C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33EB02C72C8E3B5B00B9243C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33EB02CE2C8E3B5B00B9243C;
+			remoteInfo = "UGArden Herbs 2024";
+		};
+		33EB02EB2C8E3B5D00B9243C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33EB02C72C8E3B5B00B9243C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33EB02CE2C8E3B5B00B9243C;
+			remoteInfo = "UGArden Herbs 2024";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3344E97F2CB35EFD002F4ADA /* LargeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
+		3344E9802CB35EFD002F4ADA /* QRScannerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerButton.swift; sourceTree = "<group>"; };
+		3344E9862CB35F09002F4ADA /* Airtable Access.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Airtable Access.swift"; sourceTree = "<group>"; };
+		3344E9872CB35F09002F4ADA /* Drying Records.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Drying Records.swift"; sourceTree = "<group>"; };
+		3344E9882CB35F09002F4ADA /* DryingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DryingViewModel.swift; sourceTree = "<group>"; };
+		3344E98D2CB35F0D002F4ADA /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Enums.swift; path = "UGArden Herbs 2024/Enums.swift"; sourceTree = SOURCE_ROOT; };
+		3344E98F2CB35F11002F4ADA /* QRScannerFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerFunc.swift; sourceTree = "<group>"; };
+		3344E9932CB35F1A002F4ADA /* AnalyticsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		3344E9942CB35F1A002F4ADA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3344E9952CB35F1A002F4ADA /* DryingFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DryingFormView.swift; sourceTree = "<group>"; };
+		3344E9962CB35F1A002F4ADA /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		3344E9972CB35F1A002F4ADA /* InventoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		3344E9982CB35F1A002F4ADA /* ProductFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductFormView.swift; sourceTree = "<group>"; };
+		3344E9992CB35F1A002F4ADA /* QRScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		3344E9AC2CC469F1002F4ADA /* EditRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordView.swift; sourceTree = "<group>"; };
+		3344E9AE2CC6FEF3002F4ADA /* DryingRecordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DryingRecordRow.swift; sourceTree = "<group>"; };
+		3344E9B02CC7A6DC002F4ADA /* Product Airtable Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product Airtable Access.swift"; sourceTree = "<group>"; };
+		3344E9B22CC7D73A002F4ADA /* ProductRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRecords.swift; sourceTree = "<group>"; };
+		3344E9B42CC815AC002F4ADA /* ProductInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInventoryView.swift; sourceTree = "<group>"; };
+		3344E9B62CC815DF002F4ADA /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		3344E9B82CC8168F002F4ADA /* ProductRecordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRecordRow.swift; sourceTree = "<group>"; };
+		33EB02CF2C8E3B5B00B9243C /* UGArden Herbs 2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UGArden Herbs 2024.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EB02D22C8E3B5B00B9243C /* UGArden_Herbs_2024App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UGArden_Herbs_2024App.swift; sourceTree = "<group>"; };
+		33EB02D62C8E3B5D00B9243C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33EB02D82C8E3B5D00B9243C /* UGArden_Herbs_2024.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UGArden_Herbs_2024.entitlements; sourceTree = "<group>"; };
+		33EB02DA2C8E3B5D00B9243C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33EB02E02C8E3B5D00B9243C /* UGArden Herbs 2024Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UGArden Herbs 2024Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EB02E42C8E3B5D00B9243C /* UGArden_Herbs_2024Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UGArden_Herbs_2024Tests.swift; sourceTree = "<group>"; };
+		33EB02EA2C8E3B5D00B9243C /* UGArden Herbs 2024UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UGArden Herbs 2024UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EB02EE2C8E3B5D00B9243C /* UGArden_Herbs_2024UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UGArden_Herbs_2024UITests.swift; sourceTree = "<group>"; };
+		33EB02F02C8E3B5D00B9243C /* UGArden_Herbs_2024UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UGArden_Herbs_2024UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33EB02CC2C8E3B5B00B9243C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EB02DD2C8E3B5D00B9243C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EB02E72C8E3B5D00B9243C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3344E9812CB35EFD002F4ADA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3344E9AE2CC6FEF3002F4ADA /* DryingRecordRow.swift */,
+				3344E97F2CB35EFD002F4ADA /* LargeButton.swift */,
+				3344E9B82CC8168F002F4ADA /* ProductRecordRow.swift */,
+				3344E9802CB35EFD002F4ADA /* QRScannerButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3344E9892CB35F09002F4ADA /* Data Access */ = {
+			isa = PBXGroup;
+			children = (
+				3344E98D2CB35F0D002F4ADA /* Enums.swift */,
+				3344E9B02CC7A6DC002F4ADA /* Product Airtable Access.swift */,
+				3344E9862CB35F09002F4ADA /* Airtable Access.swift */,
+				3344E9B62CC815DF002F4ADA /* ProductViewModel.swift */,
+				3344E9872CB35F09002F4ADA /* Drying Records.swift */,
+				3344E9B22CC7D73A002F4ADA /* ProductRecords.swift */,
+				3344E9882CB35F09002F4ADA /* DryingViewModel.swift */,
+			);
+			path = "Data Access";
+			sourceTree = "<group>";
+		};
+		3344E99A2CB35F1A002F4ADA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3344E9932CB35F1A002F4ADA /* AnalyticsView.swift */,
+				3344E9942CB35F1A002F4ADA /* ContentView.swift */,
+				3344E9B42CC815AC002F4ADA /* ProductInventoryView.swift */,
+				3344E9952CB35F1A002F4ADA /* DryingFormView.swift */,
+				3344E9AC2CC469F1002F4ADA /* EditRecordView.swift */,
+				3344E9962CB35F1A002F4ADA /* HomeScreen.swift */,
+				3344E9972CB35F1A002F4ADA /* InventoryView.swift */,
+				3344E9982CB35F1A002F4ADA /* ProductFormView.swift */,
+				3344E9992CB35F1A002F4ADA /* QRScannerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33EB02C62C8E3B5B00B9243C = {
+			isa = PBXGroup;
+			children = (
+				33EB02D12C8E3B5B00B9243C /* UGArden Herbs 2024 */,
+				33EB02E32C8E3B5D00B9243C /* UGArden Herbs 2024Tests */,
+				33EB02ED2C8E3B5D00B9243C /* UGArden Herbs 2024UITests */,
+				33EB02D02C8E3B5B00B9243C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33EB02D02C8E3B5B00B9243C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33EB02CF2C8E3B5B00B9243C /* UGArden Herbs 2024.app */,
+				33EB02E02C8E3B5D00B9243C /* UGArden Herbs 2024Tests.xctest */,
+				33EB02EA2C8E3B5D00B9243C /* UGArden Herbs 2024UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33EB02D12C8E3B5B00B9243C /* UGArden Herbs 2024 */ = {
+			isa = PBXGroup;
+			children = (
+				33EB02D22C8E3B5B00B9243C /* UGArden_Herbs_2024App.swift */,
+				3344E9812CB35EFD002F4ADA /* Components */,
+				33EB02D62C8E3B5D00B9243C /* Assets.xcassets */,
+				3344E99A2CB35F1A002F4ADA /* Views */,
+				3344E9892CB35F09002F4ADA /* Data Access */,
+				3344E98F2CB35F11002F4ADA /* QRScannerFunc.swift */,
+				33EB02D82C8E3B5D00B9243C /* UGArden_Herbs_2024.entitlements */,
+				33EB02D92C8E3B5D00B9243C /* Preview Content */,
+			);
+			path = "UGArden Herbs 2024";
+			sourceTree = "<group>";
+		};
+		33EB02D92C8E3B5D00B9243C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33EB02DA2C8E3B5D00B9243C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33EB02E32C8E3B5D00B9243C /* UGArden Herbs 2024Tests */ = {
+			isa = PBXGroup;
+			children = (
+				33EB02E42C8E3B5D00B9243C /* UGArden_Herbs_2024Tests.swift */,
+			);
+			path = "UGArden Herbs 2024Tests";
+			sourceTree = "<group>";
+		};
+		33EB02ED2C8E3B5D00B9243C /* UGArden Herbs 2024UITests */ = {
+			isa = PBXGroup;
+			children = (
+				33EB02EE2C8E3B5D00B9243C /* UGArden_Herbs_2024UITests.swift */,
+				33EB02F02C8E3B5D00B9243C /* UGArden_Herbs_2024UITestsLaunchTests.swift */,
+			);
+			path = "UGArden Herbs 2024UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33EB02CE2C8E3B5B00B9243C /* UGArden Herbs 2024 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EB02F42C8E3B5D00B9243C /* Build configuration list for PBXNativeTarget "UGArden Herbs 2024" */;
+			buildPhases = (
+				33EB02CB2C8E3B5B00B9243C /* Sources */,
+				33EB02CC2C8E3B5B00B9243C /* Frameworks */,
+				33EB02CD2C8E3B5B00B9243C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UGArden Herbs 2024";
+			productName = "UGArden Herbs 2024";
+			productReference = 33EB02CF2C8E3B5B00B9243C /* UGArden Herbs 2024.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33EB02DF2C8E3B5D00B9243C /* UGArden Herbs 2024Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EB02F72C8E3B5D00B9243C /* Build configuration list for PBXNativeTarget "UGArden Herbs 2024Tests" */;
+			buildPhases = (
+				33EB02DC2C8E3B5D00B9243C /* Sources */,
+				33EB02DD2C8E3B5D00B9243C /* Frameworks */,
+				33EB02DE2C8E3B5D00B9243C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33EB02E22C8E3B5D00B9243C /* PBXTargetDependency */,
+			);
+			name = "UGArden Herbs 2024Tests";
+			productName = "UGArden Herbs 2024Tests";
+			productReference = 33EB02E02C8E3B5D00B9243C /* UGArden Herbs 2024Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33EB02E92C8E3B5D00B9243C /* UGArden Herbs 2024UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EB02FA2C8E3B5D00B9243C /* Build configuration list for PBXNativeTarget "UGArden Herbs 2024UITests" */;
+			buildPhases = (
+				33EB02E62C8E3B5D00B9243C /* Sources */,
+				33EB02E72C8E3B5D00B9243C /* Frameworks */,
+				33EB02E82C8E3B5D00B9243C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33EB02EC2C8E3B5D00B9243C /* PBXTargetDependency */,
+			);
+			name = "UGArden Herbs 2024UITests";
+			productName = "UGArden Herbs 2024UITests";
+			productReference = 33EB02EA2C8E3B5D00B9243C /* UGArden Herbs 2024UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33EB02C72C8E3B5B00B9243C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					33EB02CE2C8E3B5B00B9243C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					33EB02DF2C8E3B5D00B9243C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 33EB02CE2C8E3B5B00B9243C;
+					};
+					33EB02E92C8E3B5D00B9243C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 33EB02CE2C8E3B5B00B9243C;
+					};
+				};
+			};
+			buildConfigurationList = 33EB02CA2C8E3B5B00B9243C /* Build configuration list for PBXProject "UGArden Herbs 2024" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33EB02C62C8E3B5B00B9243C;
+			productRefGroup = 33EB02D02C8E3B5B00B9243C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33EB02CE2C8E3B5B00B9243C /* UGArden Herbs 2024 */,
+				33EB02DF2C8E3B5D00B9243C /* UGArden Herbs 2024Tests */,
+				33EB02E92C8E3B5D00B9243C /* UGArden Herbs 2024UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33EB02CD2C8E3B5B00B9243C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EB02DB2C8E3B5D00B9243C /* Preview Assets.xcassets in Resources */,
+				33EB02D72C8E3B5D00B9243C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EB02DE2C8E3B5D00B9243C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EB02E82C8E3B5D00B9243C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33EB02CB2C8E3B5B00B9243C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3344E9A02CB35F1A002F4ADA /* ProductFormView.swift in Sources */,
+				3344E9AD2CC469F1002F4ADA /* EditRecordView.swift in Sources */,
+				3344E9902CB35F11002F4ADA /* QRScannerFunc.swift in Sources */,
+				3344E98B2CB35F09002F4ADA /* Drying Records.swift in Sources */,
+				3344E99E2CB35F1A002F4ADA /* HomeScreen.swift in Sources */,
+				3344E99C2CB35F1A002F4ADA /* ContentView.swift in Sources */,
+				33EB02D32C8E3B5B00B9243C /* UGArden_Herbs_2024App.swift in Sources */,
+				3344E9B92CC8168F002F4ADA /* ProductRecordRow.swift in Sources */,
+				3344E9B52CC815AC002F4ADA /* ProductInventoryView.swift in Sources */,
+				3344E9822CB35EFD002F4ADA /* LargeButton.swift in Sources */,
+				3344E99F2CB35F1A002F4ADA /* InventoryView.swift in Sources */,
+				3344E98A2CB35F09002F4ADA /* Airtable Access.swift in Sources */,
+				3344E9B32CC7D73A002F4ADA /* ProductRecords.swift in Sources */,
+				3344E9AF2CC6FEF3002F4ADA /* DryingRecordRow.swift in Sources */,
+				3344E99B2CB35F1A002F4ADA /* AnalyticsView.swift in Sources */,
+				3344E9B72CC815DF002F4ADA /* ProductViewModel.swift in Sources */,
+				3344E9832CB35EFD002F4ADA /* QRScannerButton.swift in Sources */,
+				3344E98E2CB35F0D002F4ADA /* Enums.swift in Sources */,
+				3344E99D2CB35F1A002F4ADA /* DryingFormView.swift in Sources */,
+				3344E98C2CB35F09002F4ADA /* DryingViewModel.swift in Sources */,
+				3344E9A12CB35F1A002F4ADA /* QRScannerView.swift in Sources */,
+				3344E9B12CC7A6DC002F4ADA /* Product Airtable Access.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EB02DC2C8E3B5D00B9243C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EB02E52C8E3B5D00B9243C /* UGArden_Herbs_2024Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EB02E62C8E3B5D00B9243C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EB02F12C8E3B5D00B9243C /* UGArden_Herbs_2024UITestsLaunchTests.swift in Sources */,
+				33EB02EF2C8E3B5D00B9243C /* UGArden_Herbs_2024UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33EB02E22C8E3B5D00B9243C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33EB02CE2C8E3B5B00B9243C /* UGArden Herbs 2024 */;
+			targetProxy = 33EB02E12C8E3B5D00B9243C /* PBXContainerItemProxy */;
+		};
+		33EB02EC2C8E3B5D00B9243C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33EB02CE2C8E3B5B00B9243C /* UGArden Herbs 2024 */;
+			targetProxy = 33EB02EB2C8E3B5D00B9243C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33EB02F22C8E3B5D00B9243C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33EB02F32C8E3B5D00B9243C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		33EB02F52C8E3B5D00B9243C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "UGArden Herbs 2024/UGArden_Herbs_2024.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UGArden Herbs 2024/Preview Content\"";
+				DEVELOPMENT_TEAM = 37Q6RX4H85;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nmiuga.UGArden-Herbs-2024";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33EB02F62C8E3B5D00B9243C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "UGArden Herbs 2024/UGArden_Herbs_2024.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UGArden Herbs 2024/Preview Content\"";
+				DEVELOPMENT_TEAM = 37Q6RX4H85;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nmiuga.UGArden-Herbs-2024";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33EB02F82C8E3B5D00B9243C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37Q6RX4H85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nmiuga.UGArden-Herbs-2024Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UGArden Herbs 2024.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UGArden Herbs 2024";
+			};
+			name = Debug;
+		};
+		33EB02F92C8E3B5D00B9243C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37Q6RX4H85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nmiuga.UGArden-Herbs-2024Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UGArden Herbs 2024.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UGArden Herbs 2024";
+			};
+			name = Release;
+		};
+		33EB02FB2C8E3B5D00B9243C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37Q6RX4H85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nmiuga.UGArden-Herbs-2024UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UGArden Herbs 2024";
+			};
+			name = Debug;
+		};
+		33EB02FC2C8E3B5D00B9243C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37Q6RX4H85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nmiuga.UGArden-Herbs-2024UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UGArden Herbs 2024";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33EB02CA2C8E3B5B00B9243C /* Build configuration list for PBXProject "UGArden Herbs 2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EB02F22C8E3B5D00B9243C /* Debug */,
+				33EB02F32C8E3B5D00B9243C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EB02F42C8E3B5D00B9243C /* Build configuration list for PBXNativeTarget "UGArden Herbs 2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EB02F52C8E3B5D00B9243C /* Debug */,
+				33EB02F62C8E3B5D00B9243C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EB02F72C8E3B5D00B9243C /* Build configuration list for PBXNativeTarget "UGArden Herbs 2024Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EB02F82C8E3B5D00B9243C /* Debug */,
+				33EB02F92C8E3B5D00B9243C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EB02FA2C8E3B5D00B9243C /* Build configuration list for PBXNativeTarget "UGArden Herbs 2024UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EB02FB2C8E3B5D00B9243C /* Debug */,
+				33EB02FC2C8E3B5D00B9243C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33EB02C72C8E3B5B00B9243C /* Project object */;
+}
